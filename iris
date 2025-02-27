@@ -18,3 +18,9 @@ new_sample = [[5.1, 3.5, 1.4, 0.2]]  # Example data
 new_sample_scaled = scaler.transform(new_sample)
 predicted_class = knn.predict(new_sample_scaled)
 print(f"Predicted Species: {iris.target_names[predicted_class[0]]}")
+
+
+
+output:
+Model Accuracy: 1.00
+Predicted Species: setosa
